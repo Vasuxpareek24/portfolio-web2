@@ -364,7 +364,7 @@ i {
   color: white;
   }
   .my-details-p {
-    font-size: 2px;
+    font-size: 10px;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -602,7 +602,7 @@ i {
 }
 .tap-to-see {
   padding-top: 5px;
-  font-size: 2px;
+  font-size: 10px;
   text-align: center;
   justify-content: center;
   color: white;
