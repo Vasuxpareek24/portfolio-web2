@@ -698,12 +698,12 @@ i {
   #c1-heading{
     color: white;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 20px;
   }
   #c1-pera {
     margin-top: 20px;
     color: white;
-    font-size: 5px;
+    font-size: 10px;
   }
   .b-card2{
     background-color: hsl(0, 13% , 18%);
