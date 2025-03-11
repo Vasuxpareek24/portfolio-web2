@@ -118,58 +118,31 @@ header {
 }
 
 /* ✅ Sirf Mobile (Phones) aur Tablets ke liye */
-@media (max-width: 1024px) {
-
-  body, html {
-    background-color:#0e0e0e;
-    overflow-x:hidden;
+.wrap-wa {
+    position: relative;
     width: 100%;
-    margin: 0;
-    padding: 0;
-   }
-   *{
-     margin: 0;
-     padding: 0;
-     font-family: "Open Sans", "Open Sans", Arial, sans-serif;
-   }
-  .first-details {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: auto;
-    padding: 20px;
-  }
+    display: flex;
+    padding-right: 10px;
+    justify-content: flex-end;
 
-  #hello {
-    font-size: 40px;
-  }
-
-  #my-name {
-    font-size: 28px;
-  }
-
-  #video-editor {
-    font-size: 22px;
-  }
-
-  .top-info {
-    font-size: 18px;
-  }
-
-  .button-wa {
+ .button-wa {
     font-size: 14px;
-    padding: 10px;
-    margin-top: 170px;
+    padding: 10px 15px;
+    position: absolute;
+    margin-top: 6px; 
+         
+    
   }
 /* ✅ Two-Image Section (Fix for All Devices) */
 .two-image {
   display: flex;
-  height: 400px;
   align-items: center;
   justify-content: center;
+
+  height: 100vh;
+  
   width: 100%;
-  overflow: hidden; /* ✅ Extra scroll completely remove */
+  overflow: hidden;
 }
 
 /* ✅ Background Image Container */
@@ -177,11 +150,21 @@ header {
   height: 100%;
   width: 100%;
   background-image: url(editor2.png);
-  background-size: cover;
-  background-position: center; /* ✅ Image center me rahe */
+  background-size: 100% 100%;
+  background-position: center center; /* ✅ Image center me rahe */
   background-repeat: no-repeat; /* ✅ Image repeat na ho */
 }
-  
+  /* ✅ Landscape Mode Fix */
+@media (max-width: 1024px) and (orientation: landscape) {
+  .two-image {
+    height: 250px; /* ✅ Landscape mode me height adjust */
+  }
+
+  .two-image-div {
+    background-size: cover; /* ✅ Image pura dikhne ke liye */
+    background-position: center center;
+  }
+}
 }
 /* Image Section*/
 
