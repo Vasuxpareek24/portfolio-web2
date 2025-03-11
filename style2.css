@@ -117,6 +117,72 @@ header {
   }
 }
 
+/* ✅ Sirf Mobile (Phones) aur Tablets ke liye */
+@media (max-width: 1024px) {
+
+  body, html {
+    background-color:#0e0e0e;
+    overflow-x:hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   }
+   *{
+     margin: 0;
+     padding: 0;
+     font-family: "Open Sans", "Open Sans", Arial, sans-serif;
+   }
+  .first-details {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  #hello {
+    font-size: 40px;
+  }
+
+  #my-name {
+    font-size: 28px;
+  }
+
+  #video-editor {
+    font-size: 22px;
+  }
+
+  .top-info {
+    font-size: 18px;
+  }
+
+  .button-wa {
+    font-size: 14px;
+    padding: 10px;
+    margin-top: 170px;
+  }
+/* ✅ Two-Image Section (Fix for All Devices) */
+.two-image {
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden; /* ✅ Extra scroll completely remove */
+}
+
+/* ✅ Background Image Container */
+.two-image-div {
+  height: 100%;
+  width: 100%;
+  background-image: url(editor2.png);
+  background-size: cover;
+  background-position: center; /* ✅ Image center me rahe */
+  background-repeat: no-repeat; /* ✅ Image repeat na ho */
+}
+  
+}
 /* Image Section*/
 
 .my-image {
