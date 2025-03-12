@@ -173,14 +173,18 @@ header {
 /* Image Section*/
 
 .my-image {
+ display: flex;
+  max-width: 100vw;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
   height: 450px;
   /* background-color: sandybrown; */
-  justify-items: center;
-  overflow-x: hidden;
+  
   overflow-y: hidden;
 }
 .first-image {
-  width:220px;
+  width: 220px;
   max-width: 100%;
   height: 450px;
  background-color: #dac5a6; 
@@ -190,7 +194,7 @@ header {
  
 }
 .real-img img {
-  overflow: hidden;
+ overflow: hidden;
   z-index: +1;
   height: 400px;
   padding-top: 50px;
